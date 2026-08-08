@@ -88,13 +88,7 @@ Requires Firebase configuration (`firebase_options.dart`, generated via `flutter
 - The backend handles one request at a time (fully synchronous) — not suited for concurrent users without further work (job queue, polling, or websockets).
 - `output.jpg` is overwritten on every generation server-side; there's no per-request file naming on the backend (history/versioning is handled entirely client-side).
 ## Demo
-
-
-Uploading 154108-480x1066.mp4…
-
-
-
-Uploading 154108-480x1066.mp4…
+https://github.com/user-attachments/assets/504ff730-40ef-4874-8181-50a24c721c84
 
 
 ## License
