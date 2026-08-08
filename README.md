@@ -87,6 +87,15 @@ Requires Firebase configuration (`firebase_options.dart`, generated via `flutter
 - The Settings dialog is currently **display-only** — its values are not yet sent to the generation request; the server uses hardcoded inference steps (50) and guidance scale (7.0).
 - The backend handles one request at a time (fully synchronous) — not suited for concurrent users without further work (job queue, polling, or websockets).
 - `output.jpg` is overwritten on every generation server-side; there's no per-request file naming on the backend (history/versioning is handled entirely client-side).
+## Demo
+
+
+Uploading 154108-480x1066.mp4…
+
+
+
+Uploading 154108-480x1066.mp4…
+
 
 ## License
 
