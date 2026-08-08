@@ -89,6 +89,9 @@ Requires Firebase configuration (`firebase_options.dart`, generated via `flutter
 - `output.jpg` is overwritten on every generation server-side; there's no per-request file naming on the backend (history/versioning is handled entirely client-side).
 ## Demo
 https://github.com/user-attachments/assets/504ff730-40ef-4874-8181-50a24c721c84
+<img width="360" height="800" alt="8a250601-8784-4fb9-a2fb-ce8c64070e47" src="https://github.com/user-attachments/assets/6cbd2ea5-113e-4098-b981-42c24985ef08" />
+<img width="576" height="1280" alt="photo_6032677645281070868_y" src="https://github.com/user-attachments/assets/86a05ed2-693b-41da-bcfc-348313d4ff7e" />
+<img width="576" height="1280" alt="photo_6032677645281070869_y" src="https://github.com/user-attachments/assets/38502c87-2957-46a6-b859-f158a23b8106" />
 
 
 ## License
