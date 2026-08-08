@@ -14,14 +14,14 @@ A Flutter mobile app paired with a FastAPI backend for on-demand AI image genera
 
 ```
 ┌─────────────────┐         HTTPS (via ngrok tunnel)         ┌──────────────────────┐
-│   Flutter App    │ ───────────────────────────────────────▶│   FastAPI Server      │
-│                  │  POST /generate {prompt}                 │   (GPU machine)       │
-│  • Generate tab  │◀───────────────────────────────────────  │                       │
-│  • History tab   │  {"status": "done"}                       │  ZImagePipeline       │
-│  • Auth / account│                                            │  (diffusers, bf16,    │
-│                  │  GET /image                                │   CUDA)               │
-│                  │◀───────────────────────────────────────  │                       │
-└─────────────────┘  image/jpeg bytes                         └──────────────────────┘
+│   Flutter App    │ ───────────────────────────────────────▶│   FastAPI Server     │
+│                  │  POST /generate {prompt}                │   (GPU machine)      │
+│  • Generate tab  │◀─────────────────────────────────────── │                      │
+│  • History tab   │  {"status": "done"}                     │  ZImagePipeline      │
+│  • Auth / account│                                         │  (diffusers, bf16,   │
+│                  │  GET /image                             │   CUDA)              │
+│                  │◀─────────────────────────────────────── │                      │
+└─────────────────┘  image/jpeg bytes                        └──────────────────────┘
         │
         ▼
   Local history store
